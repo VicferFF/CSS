@@ -14,7 +14,7 @@
   <p>Los titulos h1 tendran un color verde, la fuente Georgia y un tamaño de 40px, los titulos h2 tendran un color rojo, la fuente Verdana y un tamaño de 33px y los titulos h3 tendran un color azul, la fuente Comic Sans y un tamaño de 25px</p>
 
   <h3>Subtítulo Número 3 </h3>
-  <p>Los parrafos tendran un color rosa, la fuente Courier New y un tamaño de 15px</p>
+  <p>Los parrafos tendran un color amarillo, la fuente Courier New y un tamaño de 15px</p>
 
 </body>
 </html>
