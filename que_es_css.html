@@ -2,7 +2,14 @@
 <html lang="es">
   <head>
     <title>¿Que es CSS?s</title>
+    <style type="text/css">
+      body {
+    background-color: grey;
+}
+</style>
+    <link rel="stylesheet" href=".css">
 </head>
+  
 <body>
 
   <h1>Introducción a CSS</h1>
@@ -11,15 +18,22 @@
   
   <h2>1. ¿Qué es CSS y para qué sirve?</h2>
 
-  <p>De forma resumida, la función de CSS es hacer que nuestra página web sea mucho más estética, ya que es este el que nos permite modificar el color de los elementos (letra, fondo, tablas, etc), el tamaño, formato, posición, etc de la letra y de las imagenes que insertemos en el código HTML, entre otras detalles que hacen que nuestra página web se vea mejor y más personalizada</p>
+  <p>De forma resumida, la función de CSS es hacer que nuestra página web sea mucho más estética, ya que es este el que nos permite modificar el color de los elementos (letra, fondo, tablas, etc), el tamaño, formato, posición, etc de la letra y de las imagenes que insertemos en el código HTML, entre otras detalles que hacen que nuestra página web se vea mejor y más personalizada.</p>
 
 <br>
   
   <h2>2. Formas de aplicar CSS en HTML</h2>
 
-  <p>CSS en línea (inline): Esta forma utiliza el atributo HTML "style", utiliza atributos HTML definidos como globales (aplicables a todos los elementos) La declaración tiene lugar a nivel de las etiquetas individuales contenidas en la página, por lo que se habla de hojas de estilo en línea.</p>
-  <p>CSS en el encabezado (internal): </p>
-  <p>CSS externo: </p>
+  <p>CSS en línea (inline): Esta forma utiliza el atributo HTML "style", utiliza atributos HTML definidos como globales (aplicables a todos los elementos). Este tipo de declaración se utiliza de forma individual a cada registro HTML del código de la página. Aquí un ejemplo:</p>
+  <p style="color:red;">Ejemplo de CSS inline poniendo las letras rojas.</p>
+
+  <br>
+  
+  <p>CSS en el encabezado (internal): Esta forma utiliza el atributo "style" en la sección "head" del documento HTML. Este estilo CSS es un método que afecta a toda una página, por lo que es recomendable si nuestra web va a tener pocas paginas. El ejemplo lo encontramos dentro de la etiqueta head del código esta misma pagina, haciendo que el fondo sea gris.</p>
+  
+  <br>
+  
+  <p>CSS externo: Con esta forma se enlazan las páginas web a un archivo .css externo. Se le considera a este tipo de CSS como el más eficiente, ya que puede estilizar un sitio web grande, pudiendo editar un archivo .css y cambiar todo un sitio web de una sola vez. El ejemplo tambien lo encontramos dentro de la etiqueta head del código esta misma pagina, haciendo que todas las letras de cada "h2" sean amarillas</p>
 
 <br>
   
