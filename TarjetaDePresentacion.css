@@ -8,8 +8,8 @@ body {
 }
 
 .tarjeta {
-    width: 300px; /* Ancho de la tarjeta */
-    height: 200px; /* Alto de la tarjeta */
+    width: 700px; /* Ancho de la tarjeta */
+    height: 400px; /* Alto de la tarjeta */
     margin: 20px; /* Margen exterior para separar la tarjeta del borde de la pantalla */
     padding: 20px; /* Espacio interior entre el contenido y el borde */
     border: 3px solid #333; /* Borde alrededor de la tarjeta con color gris oscuro */
