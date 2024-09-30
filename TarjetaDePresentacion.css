@@ -4,12 +4,12 @@ body {
     align-items: center;
     height: 100vh; /* Altura de la pantalla completa */
     margin: 0;
-    background-color: silver /* Fondo claro para destacar la tarjeta */
+    background-color: #f0f0f0; /* Fondo claro para destacar la tarjeta */
 }
 
 .tarjeta {
-    width: 600px; /* Ancho de la tarjeta */
-    height: 400px; /* Alto de la tarjeta */
+    width: 300px; /* Ancho de la tarjeta */
+    height: 200px; /* Alto de la tarjeta */
     margin: 20px; /* Margen exterior para separar la tarjeta del borde de la pantalla */
     padding: 20px; /* Espacio interior entre el contenido y el borde */
     border: 3px solid #333; /* Borde alrededor de la tarjeta con color gris oscuro */
