@@ -18,3 +18,20 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar un efecto de elevación */
     text-align: center; /* Centrar el texto dentro de la tarjeta */
 }
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333; /* Color del texto principal */
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #666; /* Color del texto secundario */
+}
+
+p {
+    font-size: 1em;
+    color: #444; /* Color del texto de la descripción */
+}
