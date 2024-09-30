@@ -2,6 +2,21 @@
 <html lang="es">
 <head>
     <title>Diseño avanzado</title>
+
+            .contenedor {
+            width: 200px;
+            height: 100px;
+            border: 12px solid blue;
+            padding: 30px;
+            margin: 30px;
+        }
+
+        .contenido {
+            display: flex;
+            background-color: orange;
+            height: 100%;
+            width: 100%;
+        }
 </head>
 <body>
   
@@ -16,12 +31,17 @@
 <br>
 
   <h1>CSS border</h1>
-  <p>El border es la línea que rodea un elemento, que se encuentra entre el padding y el margin. Puedes definir el grosor, el estilo (como sólido, punteado, doble, etc.), y el color del borde. Por ejemplo, border: 2px solid black; define un borde sólido de 2 píxeles de grosor y de color negro.</p>
+  <p>El border es la línea que rodea un elemento HTML, se encuentra entre el padding y el margin. Se le puede definir el grosor, el estilo (sólido, punteado, doble, etc.), y el color del borde.</p>
   
 <br>
 
   <h1>CSS width and height</h1>
-  <p>Width y height especifican el ancho y la altura de un elemento, respectivamente. Sirven para definir el tamaño del área de contenido del elemento. Puedes usar valores absolutos (como píxeles, por ejemplo width: 300px;) o valores relativos (como porcentaje, por ejemplo width: 50%;), dependiendo de cómo quieras que el elemento se ajuste al contenedor.</p>
-  
+  <p>Width y height especifican el ancho y la altura de un elemento HTML, sirven para definir el tamaño del área de contenido del elemento. Puedes usar valores absolutos como "píxeles" o valores relativos como "porcentaje", dependiendo de cómo quieras que el elemento se ajuste al contenedor.</p>
+
+<br>
+
+    <div class="contenedor">
+        <div class="contenido"></div>
+    </div>
 </body>
 </html>
