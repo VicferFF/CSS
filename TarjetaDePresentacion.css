@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh; /* Altura de la pantalla completa */
     margin: 0;
-    background-color: silver;
+    background-color: silver /* Fondo claro para destacar la tarjeta */
 }
 
 .tarjeta {
